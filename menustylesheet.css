@@ -1,0 +1,36 @@
+.main h1{
+    font-weight: bold; 
+    padding: 20px 0px ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.block1{
+    display: flex;
+    width: 100%;
+    height: 800px;
+    justify-content: space-between;
+    padding: 30px;
+}
+.block1-img{
+    width: 700px;
+    height: 70%;
+    object-fit: cover;
+    display: block;
+}
+
+
+.block1-body{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 30px;
+}
+.block1-text{
+    background-color: #D2D2AE;
+}

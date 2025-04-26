@@ -1,0 +1,134 @@
+.body{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    padding: 30px;
+    box-sizing: border-box;
+}
+.block1{
+    display: flex;
+    width: 100%;
+    height: 600px;
+    padding: 50px 0;
+    margin-bottom: 30px;
+}
+
+.block1-left{
+    background-color: #32462F;
+    color: white;
+    width: 50%;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: center;  
+    text-align: center;
+    gap: 30px;
+}
+.block1-left h1{
+    font-weight: bold; 
+    font-size: 3rem;
+}
+.block-left p{
+    font-weight: bold ; 
+    font-size: 1.5rem;
+}
+.block1-right{
+    width:50% ;
+    height: 600px;
+}
+.block1-img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.btn-block1{
+    background-color:#32462F ;
+    color: #e0e0e0;
+    border: 1px solid #e0e0e0;
+    border-radius: 999px;
+    padding: 7px 15px;
+    font-weight: bold;
+}
+
+.btn-block1:hover{
+    background-color: #2d3f2a;
+    cursor: pointer;
+}
+
+@media (max-width: 768px) {
+    .block-1 {
+      flex-direction: column;
+    }
+  
+    .block-1-left,
+    .block-1-right {
+      width: 100%;
+      height: auto;
+    }
+  
+    .block-1-img {
+      height: 300px;
+      object-fit: cover;
+    }
+  }
+  
+
+
+.block2 {
+    background-color: #5F4633;
+    color: white;
+    display: flex;
+    width: 100%;
+    max-width: 100%;     
+    height: 400px;
+    padding: 50px 0;
+}
+
+.block2-img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.block2-right{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    line-height: 1.5;
+}
+.btn-block2{
+    background-color: #5F4633;
+    color: white;
+    border: 1px solid white;
+    border-radius: 999px;
+    padding: 7px 15px;
+    font-weight: bold;
+    margin-top: 15px;
+}
+.btn-block2:hover{
+    background-color: #4b3a2b;
+    cursor: pointer;
+}
+
+.block3{
+    display: flex;
+    width: 100%;
+    background-color:white;
+    color: black;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 20px;
+    border-bottom: 2px solid #e0e0e0;
+}
+
+.block3 p{
+    width: 700px;
+    margin: 30px;
+}
+
