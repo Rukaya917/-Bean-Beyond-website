@@ -38,6 +38,7 @@
 .imgLogo{
     width: auto;
     height: 70px;
+    border-radius: 500%;
 }
 
 .m:link,
